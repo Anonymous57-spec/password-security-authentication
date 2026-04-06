@@ -11,6 +11,6 @@ hashed = hash_password(password)
 login = input("Enter password: ")
 
 if verify_password(hashed, login):
-    print("Login Successful ✅")
+    print("Login Successful ")
 else:
-    print("Wrong Password ❌")
+    print("Wrong Password ")
